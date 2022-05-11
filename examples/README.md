@@ -10,6 +10,8 @@
 
 ## X86 Backend
 
+[X86下直接与间接Call指令调用开销对比 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/23606037)
+
 LLVM source code 
 
 https://blog.weghos.com/llvm/llvm/llvm/lib/Target/X86/MCTargetDesc/X86MCCodeEmitter.cpp.html
