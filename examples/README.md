@@ -40,5 +40,17 @@ LLVM backend notes
 
 https://nondot.org/sabre/LLVMNotes/CodeGeneratorRevamp.txt
 
+### GlobalAddress & ExternalSymbol
+
+[【LLVMdev】 MachineOperand: GlobalAddress vs. ExternalSymbol](https://lists.llvm.org/pipermail/llvm-dev/2004-June/001277.html)
+
+要 call 一个外部函数很简单，内部函数可能需要 Module 的信息。
+
+```
+BuildMI(MBB, MII, DL, TII.get(X86::CALL64pcrel32)).addExternalSymbol("malloc"); 
+```
+
+
+
 
 
