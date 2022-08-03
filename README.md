@@ -5,3 +5,7 @@
 因为 LLVM 后面越来越复杂，越来越看不懂了。
 
 [X86下直接与间接Call指令调用开销对比 - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/23606037)
+
+* Creating an LLVM Sanitizer from Hopes and Dreams: 
+  * [Creating an LLVM Sanitizer from Hopes and Dreams - Security Boulevard](https://securityboulevard.com/2019/06/creating-an-llvm-sanitizer-from-hopes-and-dreams/)
+
